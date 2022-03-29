@@ -10,7 +10,7 @@ public class frgtPassPojo extends BaseClass{
 	PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath="//a[text()='Forgotten password']")
+	@FindBy(xpath="//a[text()='Forgotten password?']")
 	private WebElement frgtPassBtn;
 	
 	@FindBy(xpath="//input[@type='text']")
